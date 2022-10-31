@@ -22,7 +22,8 @@ You can check more examples on [this link](https://machinelearningmastery.com/sa
 **Joblib** is an alternative to Pickle. It's part of Scipy's ecosystem and is more efficient on objects that carry large Numpy arrays. Learn more about its advantages in this [stackoverflow discussion](https://stackoverflow.com/questions/12615525/what-are-the-different-use-cases-of-joblib-versus-pickle#:~:text=joblib%20is%20usually,zlib%20or%20lz4.).
 
 # GET and POST methods in REST APIs
-### These are some concepts you need to be aware of. 
+These are some concepts you need to be aware of. 
+___
 ### Firstly, what is a REST API?
 You can learn about it in this [Red Had Article](https://www.redhat.com/en/topics/api/what-is-a-rest-api), but it is basically an API that obeys to the REST set of architectural constraints. Which means it is a client-server communication where no information is stored between requests and the interface is uniform in both sides, making it easily usable for clients with useful resources and self-descriptive messages.
 ___
@@ -32,3 +33,8 @@ ___
 The use cases are sometimes similar, but there are differences between them. For instance, in *POST* the data is confidential (hidden because is passed inside the body of the request) and doesn't have a length limitation(handles large amounts of data), while in GET small data information is passed on the headers.
 
 Follow [this link](https://www.scaler.com/topics/difference-between-get-and-post/) to have a better overview of this topic and spot the request differences [here](https://www.geeksforgeeks.org/difference-between-get-and-post-request-in-vanilla-javascript/).
+
+# Install Postman API platform ![][def]
+
+[def]: postman.png
+
