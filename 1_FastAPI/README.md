@@ -34,7 +34,15 @@ The use cases are sometimes similar, but there are differences between them. For
 
 Follow [this link](https://www.scaler.com/topics/difference-between-get-and-post/) to have a better overview of this topic and spot the request differences [here](https://www.geeksforgeeks.org/difference-between-get-and-post-request-in-vanilla-javascript/).
 
-# Install Postman API platform ![][def]
+# Create APIs with Postman platform ![](https://user-images.githubusercontent.com/4249709/29496848-63ad446c-85b1-11e7-904e-a4ddad25e9db.png)
 
-[def]: postman.png
+
+**APIs** are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols. For example, the weather bureau's software system contains daily weather data. The weather app on your phone “talks” to this system via APIs and shows you daily weather updates on your phone. Learn more with [this article](https://www.redhat.com/en/topics/api/what-are-pplication-programming-interfaces).
+___
+**Postman** is an API development tool which helps to build, test and modify APIs. Using its simple and user-friendly interface, you can easily send requests, just fill in the required data, select the HTTP method, and hit the “Send” button.
+
+Go to their [website](https://www.postman.com/) and install the Desktop version or try the Web app. After that, watch this [8 minute beginner tutorial](https://www.youtube.com/watch?v=CLG0ha_a0q8) and get to know the platform, sending your first requests.
+___
+[**FastAPI**](https://fastapi.tiangolo.com/) is a Web framework for developing RESTful APIs in Python. Follow [this article](https://fastapi.tiangolo.com/#create-it) to create your first API using GET method.
+
 
