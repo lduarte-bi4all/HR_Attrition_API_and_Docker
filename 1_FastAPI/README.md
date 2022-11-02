@@ -45,4 +45,6 @@ Go to their [website](https://www.postman.com/) and install the Desktop version 
 ___
 [**FastAPI**](https://fastapi.tiangolo.com/) is a Web framework for developing RESTful APIs in Python. Follow [this article](https://fastapi.tiangolo.com/#create-it) to create your first API using GET method.
 
+# Create API to deploy your ML model using BaseModel
 
+*Pydantic* is a Python library for data modeling/parsing that has efficient error handling and a custom validation mechanism. You can define your data inside a class that inherits from the **BaseModel** class, making sure it conforms to the fields' constraints defined in it. See this [*BaseModel* usage](https://pydantic-docs.helpmanual.io/usage/models/#basic-model-usage).
