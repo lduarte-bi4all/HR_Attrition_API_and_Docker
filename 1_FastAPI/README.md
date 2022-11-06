@@ -25,7 +25,7 @@ You can check more examples on [this link](https://machinelearningmastery.com/sa
 These are some concepts you need to be aware of. 
 ___
 ### Firstly, what is a REST API?
-You can learn about it in this [Red Had Article](https://www.redhat.com/en/topics/api/what-is-a-rest-api), but it is basically an API that obeys to the REST set of architectural constraints. Which means it is a client-server communication where no information is stored between requests and the interface is uniform in both sides, making it easily usable for clients with useful resources and self-descriptive messages.
+You can learn about it in this [Red Had Article](https://www.redhat.com/en/topics/api/what-is-a-rest-api), but it is basically an API that obeys to the REST set of architectural constraints. Which means it is a client-server communication where no information is stored between requests and the interface is uniform in both sides, making it easily usable for clients, with useful resources and self-descriptive messages.
 ___
 ### What's the difference between GET and POST methods?
 *GET* and *POST* are *HTTP(HyperText Transfer Protocol)* request methods. In general, *GET* is used to get data from a specified source, and *POST* to send data in order to create or update resources.
@@ -48,3 +48,4 @@ ___
 # Create API to deploy your ML model using BaseModel
 
 *Pydantic* is a Python library for data modeling/parsing that has efficient error handling and a custom validation mechanism. You can define your data inside a class that inherits from the **BaseModel** class, making sure it conforms to the fields' constraints defined in it. See this [*BaseModel* usage](https://pydantic-docs.helpmanual.io/usage/models/#basic-model-usage).
+
