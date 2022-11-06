@@ -48,4 +48,29 @@ ___
 # Create API to deploy your ML model using BaseModel
 
 *Pydantic* is a Python library for data modeling/parsing that has efficient error handling and a custom validation mechanism. You can define your data inside a class that inherits from the **BaseModel** class, making sure it conforms to the fields' constraints defined in it. See this [*BaseModel* usage](https://pydantic-docs.helpmanual.io/usage/models/#basic-model-usage).
+___
+*(explicação para criar API num ficheiro python e não jupyter)*
+___
+Follow the next steps to build and test your machine learning model API:
+
+- Load the instance of *FastAPI*
+- Define the input needed data using *BaseModel*
+- Create a column rename dictionary because of the spaces in some features labels
+- Load your model with *joblib*
+- Create a POST request
+- Turn the input into a dictionary, create a *pandas* dataframe with it and rename the affected columns
+- predict the output and inform the user
+
+Try it yourself and then compare it with the solution in `src` folder.
+
+Use *Postman* to try your API following this steps:
+
+- Create a new collection called 'HR_Model'
+- Create a new request called 'Input Data'
+- Choose **POST** method and past the request URL
+- *(To be completed)*
+
+# To be improved
+In the `HR_Model_Solution.ipynb` file, the model should be dumped along with the encription of the data. At the moment, in the POST request, the user has to fill all the binary entrances representing categorical features.
+
 
