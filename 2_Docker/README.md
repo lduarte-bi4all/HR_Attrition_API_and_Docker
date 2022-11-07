@@ -10,4 +10,4 @@ ___
 # Create a dockerfile to serve your API
 Now that you understand how docker works and have created a docker container with the *getting-started* example, you can create a and run a docker container for our API.
 
-The *Dockerfile* must be in the same directory of the API as you can see in `src` file.
+The *Dockerfile* must be in the same directory of the API as you can see in `src` folder.
