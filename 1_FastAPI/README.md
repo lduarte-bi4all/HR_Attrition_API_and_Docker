@@ -72,5 +72,3 @@ Use *Postman* to try your API following this steps:
 
 # To be improved
 In the `HR_Model_Solution.ipynb` file, the model should be dumped along with the encription of the data. At the moment, in the POST request, the user has to fill all the binary entrances representing categorical features.
-
-
