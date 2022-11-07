@@ -1,13 +1,11 @@
-FROM python:3.11
+FROM python:3.9.13
 
-RUN pip install fastapi uvicorn pydantic joblib pandas
-
-COPY "./HR_API" "./api"
-
-ENV PYTHONPATH=/api
 WORKDIR /api
+ADD requirements.txt /tmp
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
-EXPOSE 8000
+COPY "./1_FastAPI/src/HR_API" "/api"
 
-ENTRYPOINT [ "uvicorn" ]
-CMD [ "HR_API:app", "--host", "0.0.0.0" ]
+EXPOSE 5000
+
+ENTRYPOINT [ "uvicorn", "HR_API:app", "--host", "0.0.0.0", "--port", "5000" ]

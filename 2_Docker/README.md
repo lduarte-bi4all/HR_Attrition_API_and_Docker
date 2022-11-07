@@ -11,3 +11,7 @@ ___
 Now that you understand how docker works and have created a docker container with the *getting-started* example, you can create a and run a docker container for our API.
 
 The *Dockerfile* must be in the same directory of the API as you can see in `src` folder.
+
+If you followed the [official docker guide](https://docs.docker.com/get-started/overview/) at least until *Part 4* of *Get Started* you should know how to build and run your docker.
+
+In order to share it, create a new *docker repository*, tag your image, push it and test it in the [*Play with docker*](https://labs.play-with-docker.com/) browser.

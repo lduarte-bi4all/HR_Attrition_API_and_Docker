@@ -78,7 +78,7 @@ HR_model = joblib.load("HR_model_load.sav")
 
 @app.post("/attrition_prediction")
 def attrition_pred(input_parameters: model_input):
-
+    print("here")
     data_dict = {k: [v] for (k, v) in input_parameters.dict().items()}
     data_df = pd.DataFrame.from_dict(data_dict)
     data_df.rename(columns=col_rename, inplace=True)
@@ -90,8 +90,8 @@ def attrition_pred(input_parameters: model_input):
     else:
         msg = "The Employee is not happy with its current situation."
 
-    return {prediction: prediction[0], msg: msg}
+    return msg
 
 
 if __name__ == "__main__":
-    uvicorn.run(app="HR_API:app", port=5000, debug=True, reload=True)
+    uvicorn.run(app="HR_API:app", port=5000, reload=True)
