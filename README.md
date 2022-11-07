@@ -11,7 +11,7 @@ In order to do that, you must **create an API** to input new data into your mode
 
 The purpose of this use case is for you to study and analyse the properties of APIs and docker files, and turn the *Human Resources Attrition model* available for external use.
 
-The use case is divided in two paths: "`1_FastAPI`" and "`2_Docker`". Both folders have a `README` file that you should read and follow carefully. There are a few links with external information for you to consolidate. You should always try to create a solution by yourself, but dive into the `src` folder if you get into a dead-end situation.
+The use case is divided in two paths: ["`1_FastAPI`"](https://github.com/lduarte-bi4all/HR_Attrition_API_and_Docker/tree/main/1_FastAPI) and ["`2_Docker`"](https://github.com/lduarte-bi4all/HR_Attrition_API_and_Docker/tree/main/2_Docker). Both folders have a `README` file that you should read and follow carefully. There are a few links with external information for you to consolidate. You should always try to create a solution by yourself, but dive into the `src` folder if you get into a dead-end situation.
 
 If you feel like you already know how to use this features, go ahead and try to solve this use case by yourself.
 
